@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_sections_test_components",
+  "info": {
+    "name": "TestComponent",
+    "icon": "magic"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

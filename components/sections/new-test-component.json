@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_sections_new_test_components",
+  "info": {
+    "name": "NewTestComponent",
+    "icon": "arrow-circle-left"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}
