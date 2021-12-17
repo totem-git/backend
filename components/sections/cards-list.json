@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_sections_cards_lists",
+  "info": {
+    "name": "CardsList",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    }
+  }
+}
