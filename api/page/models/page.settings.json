@@ -47,8 +47,6 @@
         "sections.rich-text",
         "sections.pricing",
         "sections.lead-form",
-        "sections.test-component",
-        "sections.new-test-component",
         "sections.cards-list"
       ],
       "pluginOptions": {
