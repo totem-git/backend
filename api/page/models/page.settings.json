@@ -47,7 +47,11 @@
         "sections.rich-text",
         "sections.pricing",
         "sections.lead-form",
-        "sections.cards-list"
+        "sections.cards-list",
+        "sections.general-porpuse-section",
+        "sections.dinamic-separator",
+        "sections.slider",
+        "sections.special-hero"
       ],
       "pluginOptions": {
         "i18n": {

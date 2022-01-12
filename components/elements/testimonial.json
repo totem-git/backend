@@ -2,7 +2,8 @@
   "collectionName": "components_slices_testimonials",
   "info": {
     "name": "Testimonial",
-    "icon": "user-check"
+    "icon": "user-check",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -13,7 +14,8 @@
         "images"
       ],
       "plugin": "upload",
-      "required": false
+      "required": false,
+      "pluginOptions": {}
     },
     "picture": {
       "model": "file",
@@ -22,7 +24,8 @@
         "images"
       ],
       "plugin": "upload",
-      "required": false
+      "required": false,
+      "pluginOptions": {}
     },
     "text": {
       "type": "text"
@@ -33,8 +36,11 @@
     "authorTitle": {
       "type": "string"
     },
-    "link": {
-      "type": "string"
+    "rating": {
+      "type": "integer",
+      "default": 5,
+      "max": 5,
+      "min": 0
     }
   }
 }

@@ -2,12 +2,24 @@
   "collectionName": "components_sections_cards_lists",
   "info": {
     "name": "CardsList",
-    "icon": "align-justify"
+    "icon": "align-justify",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "text": {
+    "title": {
       "type": "string"
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "text": {
+      "type": "richtext"
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.cards-list-item"
     }
   }
 }

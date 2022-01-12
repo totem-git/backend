@@ -1,0 +1,62 @@
+{
+  "collectionName": "components_sections_general_porpuse_sections",
+  "info": {
+    "name": "GeneralPorpuseSection",
+    "icon": "ad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "media": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "CTAs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "links.button-link"
+    },
+    "variant": {
+      "type": "enumeration",
+      "enum": [
+        "variant_1",
+        "variant_2",
+        "variant_3",
+        "variant_4",
+        "variant_4_reverse",
+        "variant_5",
+        "variant_6",
+        "variant_6_reverse",
+        "variant_7",
+        "variant_8"
+      ]
+    },
+    "text": {
+      "type": "richtext"
+    },
+    "extraIcon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

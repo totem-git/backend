@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_sections_sliders",
+  "info": {
+    "name": "Slider",
+    "icon": "exchange-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "slides": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.slider-slide",
+      "required": true,
+      "min": 1
+    }
+  }
+}

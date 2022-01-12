@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_elements_cards_list_items",
+  "info": {
+    "name": "CardsListItem",
+    "icon": "caret-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "text": {
+      "type": "richtext"
+    },
+    "CTA": {
+      "type": "component",
+      "repeatable": false,
+      "component": "links.button-link"
+    },
+    "bottomBorderColor": {
+      "type": "string",
+      "default": "#000000"
+    }
+  }
+}
