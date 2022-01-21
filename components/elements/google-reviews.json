@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_elements_google_reviews",
+  "info": {
+    "name": "GoogleReviews",
+    "icon": "cannabis"
+  },
+  "options": {},
+  "attributes": {
+    "totalRating": {
+      "type": "decimal",
+      "required": true,
+      "min": 0,
+      "max": 5,
+      "default": 5
+    },
+    "reviews": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.google-review-comment"
+    }
+  }
+}

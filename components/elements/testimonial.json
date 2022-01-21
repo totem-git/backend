@@ -37,7 +37,7 @@
       "type": "string"
     },
     "rating": {
-      "type": "integer",
+      "type": "decimal",
       "default": 5,
       "max": 5,
       "min": 0

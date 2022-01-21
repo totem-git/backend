@@ -51,7 +51,9 @@
         "sections.general-porpuse-section",
         "sections.dinamic-separator",
         "sections.slider",
-        "sections.special-hero"
+        "sections.special-hero",
+        "sections.resort-map",
+        "sections.geo-info"
       ],
       "pluginOptions": {
         "i18n": {

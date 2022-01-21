@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_sections_resort_maps",
+  "info": {
+    "name": "ResortMap",
+    "icon": "map-marked",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "uneditableSection": {
+      "type": "string",
+      "private": false,
+      "default": "This section doesn't take parameters yet"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_elements_google_review_comments",
+  "info": {
+    "name": "GoogleReviewComment",
+    "icon": "allergies",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "authorName": {
+      "type": "string",
+      "required": true
+    },
+    "authorPicture": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "label": {
+      "type": "string"
+    },
+    "rating": {
+      "type": "decimal",
+      "required": true,
+      "min": 0,
+      "max": 5
+    },
+    "text": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_sections_geo_infos",
+  "info": {
+    "name": "GeoInfo",
+    "icon": "map"
+  },
+  "options": {},
+  "attributes": {
+    "uneditableSection": {
+      "type": "string",
+      "default": "This section doesn't take parameters yet"
+    }
+  }
+}

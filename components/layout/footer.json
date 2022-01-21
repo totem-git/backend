@@ -6,6 +6,9 @@
   },
   "options": {},
   "attributes": {
+    "text": {
+      "type": "text"
+    },
     "logo": {
       "model": "file",
       "via": "related",
