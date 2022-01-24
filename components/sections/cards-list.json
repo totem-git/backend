@@ -25,6 +25,16 @@
       "type": "component",
       "repeatable": false,
       "component": "links.link"
+    },
+    "extraIcon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
     }
   }
 }
